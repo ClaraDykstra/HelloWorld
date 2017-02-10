@@ -1,33 +1,47 @@
 body{
     font-family: 'Sansita', sans-serif;
 }
+div.diagram img {
+    width: 200px;
+    margin-left: 250px;
+}
 
-div.title{
-    width: 100%;
+div.image{
+    width: 25%;
     height: 100%;
+    float: left;
+}
+
+div.fig img {
+    width: 150px;
+}
+/*div.fig img hover style*/
+div.fig img:hover {
+    width: 500px;
+}
+div.fig p {
+    display: inline;
+    font-size: 0.5em;
 }
 
 h1{
-  color: #000000;
+    color: #000000;
     font-weight: 400;
     font-size: 2.5em;
     max-width: 800px;
-    text-align: center;
-    margin: 25px, 25px;
-    margin-right: auto;
-    margin-left: auto;
-    margin-bottom: auto;
+    text-align: left;
+    margin: 5px, 25px;
 }
 
 h2{
-    text-align: center;
+    text-align: left;
 }
 
 h3{
   font-size: 1.25em;
     font-weight: 300;
     max-width: 800px;
-    text-align: center;
+    text-align: left;
     margin-top: 5px;
     margin-right: auto;
     margin-left: auto;
@@ -42,22 +56,22 @@ div.bio{
 }
 
 img.bioImage{
-    width: 75%;
-    margin: auto;
+    width: 300PX;
+    margin: 5px;
     display: block;
 }
 
-p.bioText{
+div.bioText{
     font-weight: 300;
     font-size: 1.05em;
     line-height: 130%;
 }
 
-p.bioText > a{
+div.bioText > a{
     color: #000000;
 }
 
-p.bioText > a:hover{
+div.bioText > a:hover{
     background-color: #FFFF00; 
 }
 
@@ -81,3 +95,18 @@ li.assignmentLink > a{
 li.assignmentLink > a:hover{
     background-color: #FFFF00; 
 }
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
